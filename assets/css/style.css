@@ -1,0 +1,102 @@
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  scroll-behavior: smooth;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  font-size: 1.6rem;
+}
+/* ===================common =======================*/
+
+.content {
+  width: 1170px;
+  max-width: calc(100% - 48px);
+  margin-left: auto;
+  margin-right: auto;
+}
+
+a {
+  text-decoration: none;
+}
+
+.btn {
+  display: inline-block;
+  height: 50px;
+  padding: 12px 24px;
+  font-weight: 600;
+  font-size: 1.4rem;
+  line-height: 186%;
+  text-align: center;
+  min-width: 118px;
+  color: #fff;
+  border-radius: 25px;
+  background: #171100;
+}
+
+/* ===========================Header====================== */
+
+.header {
+  position: sticky;
+  top: -28px;
+  z-index: 1;
+  background: #fffcf4;
+  padding-top: 28px;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  padding: 8px 0;
+}
+
+.navbar .nav {
+  margin-left: calc(512px - 21px);
+  display: flex;
+}
+
+.navbar .nav a {
+  display: inline-block;
+  position: relative;
+  padding: 11px 21px;
+  font-weight: 400;
+  font-size: 1.6rem;
+  line-height: 175%;
+  color: #5f5b53;
+}
+
+.navbar .nav a:hover,
+.navbar .nav .active {
+  text-shadow: 1px 0 0 currentColor;
+  font-size: 1.6rem;
+  line-height: 175%;
+  text-align: center;
+  color: #171100;
+}
+
+.navbar .nav .active::after {
+  content: "";
+  bottom: 12px;
+  left: 21px;
+  position: absolute;
+  width: 12px;
+  height: 2px;
+  background: #171100;
+  border-radius: 1px;
+}
+
+.navbar .action .signup {
+  margin-left: 49px;
+  min-width: 144px;
+  border-radius: 24.5px;
+  font-size: 1.6rem;
+  line-height: 175%;
+}
