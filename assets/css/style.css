@@ -1,5 +1,6 @@
 :root {
   --primary_color: #ffb900;
+  --font-heading: "Sen", sans-serif;
 }
 
 * {
@@ -114,7 +115,7 @@ a {
 
 .hero {
   background-color: #fffcf4;
-  padding-top: 56px;
+  padding: 56px 0 65px 0;
 }
 
 .hero .hero-body {
@@ -128,6 +129,7 @@ a {
 }
 
 .hero .hero-body .img {
+  display: block;
   width: 470px;
   height: 685px;
   object-fit: cover;
@@ -182,6 +184,7 @@ a {
 }
 
 .hero-body .hero-info .title {
+  font-family: var(--font-heading);
   font-weight: 700;
   font-size: 5.5rem;
   line-height: 117%;
