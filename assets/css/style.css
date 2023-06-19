@@ -260,3 +260,60 @@ a {
 .hero-info .row span {
   margin-left: 6px;
 }
+
+/* =========================popular=========================== */
+
+.popular {
+  background-color: #e5e5e5;
+  padding: 200px 0;
+}
+
+.popular .popular-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.popular .popular-top .title {
+  font-family: var(--font-heading);
+  font-weight: 700;
+  font-size: 3.8rem;
+  line-height: 126%;
+  letter-spacing: -0.02em;
+  color: #171100;
+}
+
+.popular .popular-top .desc {
+  margin-top: 16px;
+  font-weight: 400;
+  font-size: 1.8rem;
+  line-height: 167%;
+  color: #5f5b53;
+}
+
+.popular .popular-top .chevon {
+  display: flex;
+  align-items: center;
+}
+
+.popular .popular-top button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #e5e5e5;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  color: var(--primary_color);
+  border: 1px solid var(--primary_color);
+  cursor: pointer;
+}
+
+.popular-top .chevon .chevon-right {
+  margin-left: 18px;
+}
+
+.popular .popular-top button:hover {
+  background-color: var(--primary_color);
+  color: white;
+}
