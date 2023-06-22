@@ -392,3 +392,92 @@ a {
 .info-thump .cta-buy > .btn:hover {
   background-color: var(--primary_color);
 }
+
+/* ================================feedback====================== */
+
+.feedback {
+  padding: 96px 0;
+  background-color: #2e2100;
+}
+
+.feedback .feedback-body {
+  display: flex;
+  overflow: hidden;
+}
+
+.feedback .feedback-body .feedback-list {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-shrink: 0;
+  width: 100%;
+}
+
+.feedback .feedback-list .customer {
+  width: 14%;
+}
+
+.feedback .customer .avatar {
+  width: 72px;
+  height: 72px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.feedback .customer .name-custom {
+  color: #f7f7f7;
+  font-size: 2.4rem;
+  font-family: var(--font-heading);
+  font-weight: 700;
+  line-height: 141%;
+  margin-top: 18px;
+}
+
+.feedback .customer .position {
+  color: #bfbcb2;
+  font-size: 1.4rem;
+  line-height: 185%;
+  margin-top: 4px;
+  font-weight: 300;
+}
+
+.feedback .customer .dots {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  margin-top: 28px;
+}
+
+.feedback .dots .elip {
+  width: 6px;
+  height: 6px;
+  background-color: #634700;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.feedback .dots .active {
+  background-color: var(--primary_color);
+  cursor: default;
+}
+
+.feedback .dots .elip:hover {
+  background-color: var(--primary_color);
+}
+
+.feedback .feedback-list .info {
+  width: 66%;
+  margin-left: 5%;
+}
+
+.feedback .info .open-quote {
+  display: block;
+}
+
+.feedback .info .block-quote {
+  margin-left: 30px;
+  color: #fff;
+  font-size: 2.6rem;
+  font-style: italic;
+  line-height: 153%;
+}
