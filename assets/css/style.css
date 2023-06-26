@@ -564,3 +564,130 @@ a {
   height: 440px;
   margin: 0 0 0 130px;
 }
+
+/* ====================================blogs===================== */
+
+.blog {
+  padding: 96px 0;
+  background-color: #fffcf4;
+}
+
+.blog .top-blog .sub-title {
+  color: #130606;
+  text-align: center;
+  font-size: 3.8rem;
+  font-family: var(--font-heading);
+  font-weight: 700;
+  line-height: 125%;
+  letter-spacing: -0.76px;
+}
+
+.blog .top-blog .desc {
+  width: 448px;
+  margin-left: auto;
+  margin-right: auto;
+  color: #696262;
+  text-align: center;
+  font-size: 1.6rem;
+  line-height: 175%;
+  margin-top: 16px;
+}
+
+.blog .content-blog {
+  margin-top: 55px;
+  display: flex;
+}
+
+.blog .content-blog .list-item {
+  display: flex;
+  gap: 0 30px;
+  align-items: center;
+  overflow: hidden;
+}
+
+.blog .list-item .item {
+  width: calc(33.33% - 20px);
+  background-color: #fff;
+  border-radius: 16px;
+  flex-shrink: 0;
+}
+
+.blog .list-item .item:hover {
+  box-shadow: 0px 16px 32px 0px rgba(0, 0, 0, 0.05);
+}
+
+.blog .item .image {
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+  border-radius: 16px 16px 0px 0px;
+}
+
+.blog .item .info {
+  padding: 20px 20px 28px 20px;
+}
+
+.blog .date-update {
+  display: flex;
+  align-items: center;
+}
+
+.blog .date-update .elip {
+  display: inline-block;
+  margin-right: 4px;
+  width: 6px;
+  height: 6px;
+  background-color: var(--primary_color);
+  border-radius: 50%;
+}
+
+.blog .date-update .date {
+  color: #5f5b53;
+  font-size: 1.4rem;
+  line-height: 185%;
+}
+
+.blog .info .horizontal {
+  width: 160px;
+  height: 1px;
+  border-radius: 0.5px;
+  background: #e2dfda;
+  margin-top: 12px;
+}
+
+.blog .info .sub-title {
+  color: #171100;
+  font-size: 1.6rem;
+  font-weight: 600;
+  line-height: 175%;
+  margin: 12px 0;
+}
+
+.blog .info .read-more:hover {
+  background-color: var(--primary_color);
+}
+
+.blog .body-blog .dot {
+  display: flex;
+  justify-content: center;
+  margin-top: 38px;
+  gap: 0 6px;
+}
+
+.blog .dot .elip.active {
+  background-color: var(--primary_color);
+  cursor: default;
+}
+
+.blog .dot .elip {
+  display: inline-block;
+  height: 6px;
+  width: 6px;
+  background-color: #5f5b53;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.blog .dot .elip:hover {
+  background-color: var(--primary_color);
+}
