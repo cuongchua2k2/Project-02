@@ -691,3 +691,93 @@ a {
 .blog .dot .elip:hover {
   background-color: var(--primary_color);
 }
+
+/* =====================footer============================ */
+
+.footer {
+  padding: 96px 0 28px 0;
+  background-color: #2e2100;
+}
+
+.footer .footer-body {
+  display: flex;
+}
+
+.footer .footer-body .left-block {
+  width: 22%;
+}
+
+.footer .left-block .desc {
+  margin: 18px 0;
+  color: #bfbcb2;
+  font-size: 1.4rem;
+  line-height: 185%;
+}
+
+.footer .social .icon + .icon {
+  margin-left: 18px;
+}
+
+.footer .right-block {
+  width: 64%;
+  margin-left: 145px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.footer .right-block .list-cta:last-child {
+  width: 241px;
+}
+
+.footer .list-cta .sub-title {
+  color: #fff;
+  font-size: 1.6rem;
+  font-weight: 600;
+  line-height: 175%;
+}
+
+.footer .list-cta .horizontal {
+  width: 130px;
+  height: 1px;
+  background-color: #59554b;
+  margin-top: 14px;
+}
+
+.footer .list-cta ul {
+  margin-top: 28px;
+}
+
+.footer ul li + li {
+  margin-top: 12px;
+}
+
+.footer ul li a {
+  color: #bfbcb2;
+  font-size: 1.4rem;
+  line-height: 185%;
+}
+
+.footer ul li strong {
+  color: #fff;
+  font-size: 1.4rem;
+  font-weight: 600;
+  line-height: 185%;
+}
+
+.footer .bottom-footer {
+  margin-top: 38px;
+}
+
+.footer .bottom-footer .horizontal {
+  height: 1px;
+  background-color: #59554b;
+}
+
+.footer .bottom-footer .desc {
+  margin-top: 28px;
+  color: #807d74;
+  text-align: center;
+  font-size: 1.4rem;
+  line-height: 185%;
+}
