@@ -275,10 +275,11 @@ a {
 /* ========popular top========= */
 .popular {
   background-color: #e5e5e5;
-  padding: 200px 0;
+  padding: 135px 0 200pxa;
 }
 
 .popular .popular-top {
+  padding-top: 65px;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -486,11 +487,12 @@ a {
 /* =======feature 1============ */
 
 .features {
-  padding: 200px 0;
+  padding: 135px 0 200px;
   background-color: #fff;
 }
 
 .features .body-feature {
+  padding-top: 65px;
   display: flex;
   align-items: center;
 }
@@ -568,8 +570,12 @@ a {
 /* ====================================blogs===================== */
 
 .blog {
-  padding: 96px 0;
+  padding: 31px 0 96px;
   background-color: #fffcf4;
+}
+
+.blog .body-blog {
+  padding-top: 65px;
 }
 
 .blog .top-blog .sub-title {
