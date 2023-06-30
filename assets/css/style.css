@@ -714,7 +714,7 @@ a {
   line-height: 185%;
 }
 
-.footer .social .icon + .icon {
+.footer .social a + a {
   margin-left: 18px;
 }
 
